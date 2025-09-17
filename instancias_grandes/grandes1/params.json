@@ -1,0 +1,10 @@
+{
+  "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+  ],
+  "isolation_graph": true
+}
