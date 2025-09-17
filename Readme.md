@@ -26,16 +26,20 @@ Ambos producen, por instancia, un Excel con **3 hojas**:
 │   ├── randomized.py
 │   ├── evaluate.py
 │   └── io_utils.py
-├── run_experiments.py
+├── run.py
 ├── Plantilla.xlsx
 ├── instancias_pequeñas/
 │   └── <instancia>/
 │       ├── employees.csv
 │       ├── desks.csv
-│       ├── compatibility.csv   # opcional
+│       ├── compatibility.csv   
 │       └── params.json
 └── instancias_grandes/
     └── <instancia>/
+        ├── employees.csv
+        ├── desks.csv
+        ├── compatibility.csv
+        └── params.json
 ```
 
 > Si **no** hay `compatibility.csv`, se asume todo compatible.
@@ -57,12 +61,12 @@ Desde la carpeta raíz del proyecto:
 
 ### Instancias pequeñas
 ```bash
-python run_experiments.py --instance_dir instancias_pequeñas --plantilla Plantilla.xlsx --seed 42
+python run.py --instance_dir instancias_pequeñas --plantilla Plantilla.xlsx --seed 42
 ```
 
 ### Instancias grandes
 ```bash
-python run_experiments.py --instance_dir instancias_grandes --plantilla Plantilla.xlsx --seed 42
+python run.py --instance_dir instancias_grandes --plantilla Plantilla.xlsx --seed 42
 ```
 
 **Salida:** carpeta `salidas/` con:
