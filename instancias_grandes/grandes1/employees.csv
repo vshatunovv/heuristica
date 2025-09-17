@@ -1,0 +1,13 @@
+employee_id,group_id,pref_days
+E1,G1,Mon;Wed
+E2,G1,Wed
+E3,G1,Thu
+E4,G1,Tue;Thu
+E5,G2,Mon;Wed
+E6,G2,Tue
+E7,G2,Mon
+E8,G2,Tue;Thu
+E9,G3,Tue;Thu
+E10,G3,Wed
+E11,G3,Mon
+E12,G3,Fri
