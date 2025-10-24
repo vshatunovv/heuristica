@@ -1,4 +1,3 @@
-
 from typing import Dict, List
 import pandas as pd
 from src.neighborhoods import gen_swap_neighbors, gen_move_neighbors, available_free, apply_neighbor, clone_assignment
