@@ -1,0 +1,2 @@
+instance,cons_valid,cons_prefs,cons_isolated,cons_time,rnd_valid,rnd_prefs,rnd_isolated,rnd_time,ls_bi_valid,ls_bi_prefs,ls_bi_isolated,ls_bi_time,ls_fi_valid,ls_fi_prefs,ls_fi_isolated,ls_fi_time,ils_valid,ils_prefs,ils_isolated,ils_time,brkga_valid,brkga_prefs,brkga_isolated,brkga_time
+demo_big1,40,13,4,0.001575,40,13,5,0.00232,40,19,0,1.417416,40,19,0,0.797394,40,19,0,12.516717,40,15,4,1.098032

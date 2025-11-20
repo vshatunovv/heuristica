@@ -1,0 +1,7 @@
+employee_id,group_id,pref_days
+E1,G1,Mon;Wed
+E2,G1,Mon;Thu
+E3,G1,
+E4,G2,Tue;Thu
+E5,G2,Tue
+E6,G2,
